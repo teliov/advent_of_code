@@ -116,7 +116,7 @@ if __name__ == "__main__":
 	screen = process_rules(rules)
 	lit_count = get_lit_screen_count(screen)
 	
-	print "%d screens should be lit" %lit_count
+	print "%d pixels should be lit" %lit_count
 
 	print_screen(screen)
 
